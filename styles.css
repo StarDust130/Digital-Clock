@@ -58,3 +58,18 @@ body {
     color: transparent;
     margin-left: 60px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 50%;
+    height: 50%;
+  }
+  .container .clock {
+    font-size: 30px;
+  }
+  #quote {
+    font-size: 15px;
+  }
+  #author{
+    font-size: 15px;
+  }
+}
